@@ -9,17 +9,17 @@ export const ProductsContainer = styled.div`
 
     @media screen and (max-width: 320px) {
       width: 100%;
-      height: 450vh;
+      height: 350vh;
     }
 
     @media screen and (min-width: 321px) and (max-width: 375px) {
       width: 100%;
-      height: 405vh;
+      height: 305vh;
     }
 
     @media screen and (min-width: 376px) and (max-width: 425px) {
       width: 100%;
-      height: 405vh;
+      height: 305vh;
     }
 
     @media screen and (min-width: 426px) and (max-width: 768px) {
