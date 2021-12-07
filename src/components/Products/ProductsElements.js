@@ -1,11 +1,36 @@
 import styled from 'styled-components'
 
 export const ProductsContainer = styled.div`
-    width: 100vw; 
+    width: 100%; 
     min-height: 100vh;
     padding: 5rem calc({100vw - 1300px} /2);
     background: #150f0f;
     color: #fff;
+
+    @media screen and (max-width: 320px) {
+      width: 100%;
+      height: 520vh;
+    }
+
+    @media screen and (min-width: 321px) and (max-width: 375px) {
+      width: 100%;
+      height: 470vh;
+    }
+
+    @media screen and (min-width: 376px) and (max-width: 425px) {
+      width: 100%;
+      height: 470vh;
+    }
+
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+      width: 100%;
+      height: 260vh;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      width: 100%;
+      height: 175vh;
+    }
     
 `;
 
@@ -28,6 +53,26 @@ export const ProductImg = styled.img`
    min-weight: 300px;
    max-width: 100%;
    box-shadow: 8px 8px #fdc500;
+
+   @media screen and (max-width: 320px) {
+      margin-top: 20px;
+   }
+
+   @media screen and (min-width: 321px) and (max-width: 375px) {
+      margin-top: 20px;
+   }
+
+   @media screen and (min-width: 376px) and (max-width: 425px) {
+      margin-top: 20px;
+   }
+
+   @media screen and (min-width: 426px) and (max-width: 768px) {
+      margin-top: 20px;
+   }
+
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+      margin-top: 20px;
+   }
 `;
 
 export const ProductsHeading = styled.h1`
@@ -35,6 +80,26 @@ export const ProductsHeading = styled.h1`
    text-align: center;
    margin-bottom: 5rem;
    padding: 80px;
+
+   @media screen and (max-width: 320px) {
+      padding-top: 120px;
+   }
+
+   @media screen and (min-width: 321px) and (max-width: 375px) {
+      padding-top: 120px;
+   }
+
+   @media screen and (min-width: 376px) and (max-width: 425px) {
+      padding-top: 120px;
+   }
+
+   @media screen and (min-width: 426px) and (max-width: 768px) {
+      padding-top: 150px;
+   }
+
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+      padding-top: 150px;
+   }
 `;
 
 export const ProductTitle = styled.h2`
