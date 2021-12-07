@@ -9,27 +9,27 @@ export const ProductsContainer = styled.div`
 
     @media screen and (max-width: 320px) {
       width: 100%;
-      height: 470vh;
+      height: 450vh;
     }
 
     @media screen and (min-width: 321px) and (max-width: 375px) {
       width: 100%;
-      height: 455vh;
+      height: 405vh;
     }
 
     @media screen and (min-width: 376px) and (max-width: 425px) {
       width: 100%;
-      height: 455vh;
+      height: 405vh;
     }
 
     @media screen and (min-width: 426px) and (max-width: 768px) {
       width: 100%;
-      height: 245vh;
+      height: 205vh;
     }
 
     @media screen and (min-width: 769px) and (max-width: 1024px) {
       width: 100%;
-      height: 160vh;
+      height: 120vh;
     }
     
 `;
